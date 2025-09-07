@@ -2,7 +2,7 @@
 set -e  # exit immediately if a command fails
 
 echo "=== Step 1: Pulling Ollama models ==="
-ollama pull llama3.2:3b
+ollama pull deepseek-r1:8b
 ollama pull nomic-embed-text:v1.5
 
 echo "=== Step 2: Installing Python requirements ==="
